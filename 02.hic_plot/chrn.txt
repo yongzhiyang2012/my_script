@@ -1,0 +1,11 @@
+maozhen.counts_GATC.11g1	52982101
+maozhen.counts_GATC.11g2	48184857
+maozhen.counts_GATC.11g3	38176155
+maozhen.counts_GATC.11g4	36781874
+maozhen.counts_GATC.11g5	36270330
+maozhen.counts_GATC.11g6	31747834
+maozhen.counts_GATC.11g7	31697389
+maozhen.counts_GATC.11g8	23849844
+maozhen.counts_GATC.11g9	23215594
+maozhen.counts_GATC.11g10	22830127
+maozhen.counts_GATC.11g11	21943615

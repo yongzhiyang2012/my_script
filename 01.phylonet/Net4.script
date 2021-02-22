@@ -1,0 +1,22 @@
+#NEXUS
+
+BEGIN TREES;
+
+TREE gt0 = (Vvi,((((((Bce,(Gki,Gra)),Ola),Dzi),(Hum,Tca)),Cca),(Asi,Ath)));
+TREE gt1 = (Vvi,(Ath,(Asi,(((Bce,Ola),(Gki,Gra)),(Cca,(Dzi,(Hum,Tca)))))));
+TREE gt2 = (Vvi,(Ath,(Asi,(((Bce,((Gki,Gra),Ola)),Dzi),(Cca,(Hum,Tca))))));
+TREE gt3 = (Vvi,(Ath,(Asi,((((Bce,(Gki,Gra)),Ola),Dzi),(Cca,(Hum,Tca))))));
+TREE gt4 = (Vvi,(Ath,(Asi,(((Bce,Ola),(Gki,Gra)),((Cca,(Hum,Tca)),Dzi)))));
+TREE gt5 = (Vvi,(Asi,(((((Ath,Bce),Ola),(Cca,(Hum,Tca))),(Gki,Gra)),Dzi)));
+TREE gt6 = (Vvi,(((((Bce,(Gki,Gra)),Ola),Dzi),(Cca,(Hum,Tca))),(Asi,Ath)));
+TREE gt7 = (Vvi,(Ath,(Asi,((((Bce,((Gki,Gra),Ola)),Dzi),(Hum,Tca)),Cca))));
+TREE gt8 = (Vvi,(Ath,(Asi,((((Bce,((Gki,Gra),Ola)),Dzi),(Hum,Tca)),Cca))));
+TREE gt9 = (Vvi,(Ath,(Asi,((((Bce,(Gki,Gra)),Ola),Dzi),(Cca,(Hum,Tca))))));
+
+
+END;
+
+BEGIN PHYLONET;
+InferNetwork_ML (all) 4 -pl 50 -x 100 -n 5 po -di;
+
+END;
